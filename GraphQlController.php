@@ -257,7 +257,7 @@ class GraphQlController extends Controller
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer the ID of the model to be loaded
 	 */
-	public function actionKor(){
+	public function actionDerive(){
 		$removedRelations = 0;
 		$modelsDrop = $this->modelsDrop;
 
